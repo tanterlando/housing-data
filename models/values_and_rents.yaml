@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: gsheets_home_values_and_rents
+    database: postgres  
+    schema: gsheets_home_values_and_rents  
+    tables:
+      - name: home_values
+      - name: home_rents
